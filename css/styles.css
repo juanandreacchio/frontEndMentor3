@@ -89,3 +89,30 @@ body{
     margin-top: 25px;
     font-size: 15px;
 }
+
+@media (max-width: 768px) {
+    body{
+        height: auto;
+        padding: 100px 20px;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+    .btn{
+        padding: 16px 46px;
+        bottom: 35px;
+    }
+    .sedan-card{
+    border-radius: 15px 15px 0 0;
+    }
+    .luxury-card{
+        border-radius: 0 0 15px 15px;
+    }
+}
